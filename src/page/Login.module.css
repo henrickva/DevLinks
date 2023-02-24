@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container a{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 48px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.form button {
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: rgb(9, 9, 151);
+    font-size: 16px;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    width: 30%;
+}
+
+.form button:hover{
+    background-color: rgb(12, 12, 216);
+}

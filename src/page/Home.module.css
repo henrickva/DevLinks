@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.title{
+    padding-bottom: 20px;
+    color: white;
+    font-size: 48px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+}
+
+.link p {
+    padding: 10px;
+}
+
+.link_area {
+   margin: 10px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.link_area:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+

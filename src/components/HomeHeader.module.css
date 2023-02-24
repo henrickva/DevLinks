@@ -1,0 +1,26 @@
+.header_container{
+    margin-top: 10px;
+    color: black;
+    max-width: 720px;
+    width: 90%;
+    padding: 0 14px;
+    user-select: none;
+}
+
+.header_nav{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: solid 2px white;
+   
+}
+
+.links a {
+    color:white;
+    margin-right: 1em;
+}
+
+.links a:hover{
+    color: #0376af;
+}

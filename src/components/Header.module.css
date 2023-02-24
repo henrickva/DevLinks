@@ -1,0 +1,35 @@
+.header_container{
+    margin-top: 10px;
+    color: black;
+    max-width: 720px;
+    width: 90%;
+    padding: 0 14px;
+    user-select: none;
+}
+
+.header_nav{
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:solid 2px white;
+}
+
+.header_nav button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header_nav button:hover{
+    opacity: 0.8;
+}
+
+.links a {
+    color:white;
+    margin-right: 1em;
+}
+
+.links a:hover{
+    color: #0376af;
+}

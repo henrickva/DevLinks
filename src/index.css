@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+}
+
+body{  
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3840' height='2160' preserveAspectRatio='none' viewBox='0 0 3840 2160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1020%26quot%3b)' fill='none'%3e%3crect width='3840' height='2160' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M 0%2c85 C 384%2c283 1152%2c1045.4 1920%2c1075 C 2688%2c1104.6 3456%2c401.4 3840%2c233L3840 2160L0 2160z' fill='%23184a7e'%3e%3c/path%3e%3cpath d='M 0%2c1556 C 256%2c1665 768%2c2125 1280%2c2101 C 1792%2c2077 2048%2c1464.4 2560%2c1436 C 3072%2c1407.6 3584%2c1854.4 3840%2c1959L3840 2160L0 2160z' fill='%232264ab'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1020'%3e%3crect width='3840' height='2160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  color:white;
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(22, 21, 21);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #023047;
+  border-radius: 20px;
+}
