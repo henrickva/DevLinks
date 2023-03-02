@@ -23,7 +23,7 @@ export default function Header(){
                         Login
                     </Link>
 
-                    <Link to='/admin'>
+                    <Link to='/cadastro'>
                         Sign In
                     </Link> 
                 </div>
